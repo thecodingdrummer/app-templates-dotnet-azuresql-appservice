@@ -12,7 +12,7 @@ on:
   
 env:
   AZ_RG_NAME: 'rg-ContosoUniversityDemo'
-  AZ_LOCATION: 'eastus'
+  AZ_LOCATION: 'southcentralus'
   AZ_SERVICE_PLAN: ${{secrets.AZURE_APP_NAME}}-asp
   AZ_APP_NAME: ${{secrets.AZURE_APP_NAME}}-app
   AZ_API_NAME: ${{secrets.AZURE_APP_NAME}}-api
